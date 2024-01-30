@@ -1,0 +1,13 @@
+//VERSION NUEVA PARA IMPORTAR ARCHIVOS NUEVOS SASS . se utiliza "USE"
+//DEBO CREAR SIEMPRE 1 ARCHIVO EN CADA CARPETA, QUE SE LLAME _index.scss
+//OBSERVAR LA CARPETA base 
+
+
+//antes teniamos base/variables
+//ahora con foward solo utilizamos el import con el nombre de la carpeta
+// y foward con el nombre del archivo (se encuentra en el _index.scss 
+@import 'base';
+
+body{
+    background-color: $color;
+}
